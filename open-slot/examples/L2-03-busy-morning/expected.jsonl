@@ -1,0 +1,11 @@
+{"event": "offered", "slot": "S1", "patient": "B01"}
+{"event": "offered", "slot": "S2", "patient": "B05"}
+{"event": "offered", "slot": "S3", "patient": "B04"}
+{"event": "expired", "slot": "S1", "patient": "B01"}
+{"event": "offered", "slot": "S1", "patient": "B06"}
+{"event": "accepted", "slot": "S2", "patient": "B05"}
+{"event": "declined", "slot": "S1", "patient": "B06"}
+{"event": "no_eligible_patient", "slot": "S1"}
+{"event": "accepted", "slot": "S3", "patient": "B04"}
+{"event": "offered", "slot": "S4", "patient": "B01"}
+{"event": "accepted", "slot": "S4", "patient": "B01"}

@@ -1,0 +1,64 @@
+{
+  "summary": {
+    "rows_total": 522,
+    "rows_malformed": 4,
+    "rows_skipped": 39,
+    "runs": 479,
+    "tests": 13,
+    "commits": 14
+  },
+  "flaky_tests": [
+    {
+      "test_name": "checkout.test_apply_coupon",
+      "flaky_commits": 9,
+      "eligible_commits": 13,
+      "flake_rate": 0.6923
+    },
+    {
+      "test_name": "api.test_rate_limit_headers",
+      "flaky_commits": 5,
+      "eligible_commits": 13,
+      "flake_rate": 0.3846
+    },
+    {
+      "test_name": "reports.test_export_large_csv",
+      "flaky_commits": 5,
+      "eligible_commits": 13,
+      "flake_rate": 0.3846
+    },
+    {
+      "test_name": "files.test_path_normalisation",
+      "flaky_commits": 4,
+      "eligible_commits": 13,
+      "flake_rate": 0.3077
+    },
+    {
+      "test_name": "search.test_autocomplete_ranking",
+      "flaky_commits": 4,
+      "eligible_commits": 13,
+      "flake_rate": 0.3077
+    },
+    {
+      "test_name": "orders.test_concurrent_update",
+      "flaky_commits": 2,
+      "eligible_commits": 13,
+      "flake_rate": 0.1538
+    },
+    {
+      "test_name": "ui.test_modal_focus_trap",
+      "flaky_commits": 1,
+      "eligible_commits": 13,
+      "flake_rate": 0.0769
+    }
+  ],
+  "regressions": [
+    {
+      "test_name": "auth.test_password_reset_email",
+      "broken_since": "77a3400"
+    },
+    {
+      "test_name": "payments.test_currency_rounding",
+      "broken_since": "c71e93f"
+    }
+  ]
+}

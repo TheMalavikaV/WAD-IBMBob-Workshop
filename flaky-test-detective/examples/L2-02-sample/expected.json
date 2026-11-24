@@ -1,0 +1,99 @@
+{
+  "summary": {
+    "rows_total": 452,
+    "rows_malformed": 3,
+    "rows_skipped": 29,
+    "retries": 57,
+    "runs": 363,
+    "tests": 13,
+    "commits": 12
+  },
+  "flaky_tests": [
+    {
+      "test_name": "checkout.test_apply_coupon",
+      "kind": "both",
+      "flaky_commits": 1,
+      "eligible_commits": 9,
+      "flake_rate": 0.1111,
+      "hidden_flakes": 10,
+      "runs": 28,
+      "hidden_flake_rate": 0.3571
+    },
+    {
+      "test_name": "reports.test_export_large_csv",
+      "kind": "both",
+      "flaky_commits": 1,
+      "eligible_commits": 9,
+      "flake_rate": 0.1111,
+      "hidden_flakes": 7,
+      "runs": 27,
+      "hidden_flake_rate": 0.2593
+    },
+    {
+      "test_name": "search.test_autocomplete_ranking",
+      "kind": "both",
+      "flaky_commits": 3,
+      "eligible_commits": 9,
+      "flake_rate": 0.3333,
+      "hidden_flakes": 5,
+      "runs": 28,
+      "hidden_flake_rate": 0.1786
+    },
+    {
+      "test_name": "api.test_rate_limit_headers",
+      "kind": "both",
+      "flaky_commits": 1,
+      "eligible_commits": 9,
+      "flake_rate": 0.1111,
+      "hidden_flakes": 4,
+      "runs": 28,
+      "hidden_flake_rate": 0.1429
+    },
+    {
+      "test_name": "files.test_path_normalisation",
+      "kind": "hidden",
+      "flaky_commits": 0,
+      "eligible_commits": 9,
+      "flake_rate": 0.0,
+      "hidden_flakes": 2,
+      "runs": 28,
+      "hidden_flake_rate": 0.0714
+    },
+    {
+      "test_name": "notifications.test_webhook_delivery",
+      "kind": "hidden",
+      "flaky_commits": 0,
+      "eligible_commits": 9,
+      "flake_rate": 0.0,
+      "hidden_flakes": 2,
+      "runs": 28,
+      "hidden_flake_rate": 0.0714
+    },
+    {
+      "test_name": "orders.test_concurrent_update",
+      "kind": "hidden",
+      "flaky_commits": 0,
+      "eligible_commits": 9,
+      "flake_rate": 0.0,
+      "hidden_flakes": 1,
+      "runs": 28,
+      "hidden_flake_rate": 0.0357
+    },
+    {
+      "test_name": "ui.test_modal_focus_trap",
+      "kind": "hidden",
+      "flaky_commits": 0,
+      "eligible_commits": 9,
+      "flake_rate": 0.0,
+      "hidden_flakes": 1,
+      "runs": 28,
+      "hidden_flake_rate": 0.0357
+    }
+  ],
+  "regressions": [
+    {
+      "test_name": "payments.test_currency_rounding",
+      "broken_since": "ca0d475"
+    }
+  ]
+}

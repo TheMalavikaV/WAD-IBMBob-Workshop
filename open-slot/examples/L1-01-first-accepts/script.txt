@@ -1,0 +1,3 @@
+# A general slot opens at 15:00. The first eligible patient accepts.
+open_slot S1 general 15:00
+accept P1 S1

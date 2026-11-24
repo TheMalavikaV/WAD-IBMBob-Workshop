@@ -1,0 +1,11 @@
+{
+  "clinic": "Riverside Family Clinic",
+  "patients": [
+    {"id": "P1", "name": "Asha Raman",   "joined_at": "2026-11-01T09:00:00Z", "appointment_type": "general", "booked": false},
+    {"id": "P2", "name": "Ben Carter",   "joined_at": "2026-11-01T09:05:00Z", "appointment_type": "dental",  "booked": false},
+    {"id": "P3", "name": "Chitra Nair",  "joined_at": "2026-11-01T09:10:00Z", "appointment_type": "general", "booked": false},
+    {"id": "P4", "name": "Dev Patel",    "joined_at": "2026-11-01T09:15:00Z", "appointment_type": "general", "booked": true},
+    {"id": "P5", "name": "Elena Rossi",  "joined_at": "2026-11-01T09:20:00Z", "appointment_type": "general", "booked": false},
+    {"id": "P6", "name": "Farid Khan",   "joined_at": "2026-11-01T09:25:00Z", "appointment_type": "dental",  "booked": false}
+  ]
+}

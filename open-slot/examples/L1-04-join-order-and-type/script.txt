@@ -1,0 +1,5 @@
+# The waitlist file is NOT in join order. B07 and B03 joined at the same time: file order breaks the tie.
+open_slot S1 physio 10:30
+decline B04 S1
+expire S1
+accept B03 S1

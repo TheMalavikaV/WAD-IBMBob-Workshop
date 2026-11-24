@@ -1,0 +1,19 @@
+{
+  "summary": {
+    "rows_total": 9,
+    "rows_malformed": 5,
+    "rows_skipped": 2,
+    "runs": 2,
+    "tests": 1,
+    "commits": 1
+  },
+  "flaky_tests": [
+    {
+      "test_name": "db.test_migrate",
+      "flaky_commits": 1,
+      "eligible_commits": 1,
+      "flake_rate": 1.0
+    }
+  ],
+  "regressions": []
+}

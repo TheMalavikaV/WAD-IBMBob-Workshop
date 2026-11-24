@@ -1,0 +1,8 @@
+# Three slots, two patients. A slot with nobody eligible waits until someone becomes free.
+open_slot S1 general 18:00
+open_slot S2 general 18:30
+open_slot S3 general 19:00
+decline Q1 S1
+accept Q1 S3
+decline Q2 S2
+accept Q2 S1

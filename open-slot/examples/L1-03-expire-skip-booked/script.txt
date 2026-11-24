@@ -1,0 +1,5 @@
+# Offers can expire. Booked patients (P4) and other appointment types (P2, P6) are skipped.
+open_slot S1 general 15:00
+expire S1
+decline P3 S1
+expire S1

@@ -1,0 +1,8 @@
+# Several slots, one at a time. A patient who accepted is booked and is not offered again.
+open_slot S1 general 15:00
+accept P1 S1
+open_slot S2 dental 16:00
+decline P2 S2
+accept P6 S2
+open_slot S3 general 16:30
+accept P3 S3

@@ -1,0 +1,12 @@
+{"event": "offered", "slot": "S1", "patient": "P1"}
+{"event": "error", "line": 3, "reason": "no_active_offer"}
+{"event": "error", "line": 4, "reason": "unknown_command"}
+{"event": "error", "line": 5, "reason": "duplicate_slot"}
+{"event": "error", "line": 6, "reason": "bad_arguments"}
+{"event": "error", "line": 7, "reason": "bad_arguments"}
+{"event": "error", "line": 8, "reason": "unknown_slot"}
+{"event": "error", "line": 9, "reason": "unknown_patient"}
+{"event": "error", "line": 10, "reason": "unknown_slot"}
+{"event": "accepted", "slot": "S1", "patient": "P1"}
+{"event": "error", "line": 13, "reason": "no_active_offer"}
+{"event": "error", "line": 14, "reason": "slot_not_open"}

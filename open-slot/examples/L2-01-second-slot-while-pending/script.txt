@@ -1,0 +1,6 @@
+# A second slot opens while the first offer is still pending. Nobody holds two offers at once.
+open_slot S1 general 15:00
+open_slot S2 general 15:30
+accept P3 S2
+decline P1 S1
+accept P5 S1

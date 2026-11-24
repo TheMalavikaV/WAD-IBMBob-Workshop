@@ -1,0 +1,24 @@
+{
+  "summary": {
+    "rows_total": 27,
+    "rows_malformed": 0,
+    "rows_skipped": 0,
+    "runs": 27,
+    "tests": 3,
+    "commits": 5
+  },
+  "flaky_tests": [
+    {
+      "test_name": "svc.test_z",
+      "flaky_commits": 2,
+      "eligible_commits": 4,
+      "flake_rate": 0.5
+    }
+  ],
+  "regressions": [
+    {
+      "test_name": "svc.test_x",
+      "broken_since": "e02d5c3"
+    }
+  ]
+}

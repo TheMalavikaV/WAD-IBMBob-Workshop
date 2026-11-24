@@ -1,0 +1,15 @@
+{
+  "clinic": "Lakeside Health Centre",
+  "patients": [
+    {"id": "B07", "name": "Grace Okafor",  "joined_at": "2026-11-02T08:30:00Z", "appointment_type": "physio",  "booked": false},
+    {"id": "B01", "name": "Hiro Tanaka",   "joined_at": "2026-11-01T17:45:00Z", "appointment_type": "general", "booked": false},
+    {"id": "B03", "name": "Ines Duarte",   "joined_at": "2026-11-02T08:30:00Z", "appointment_type": "physio",  "booked": false},
+    {"id": "B02", "name": "Jonas Weber",   "joined_at": "2026-11-01T18:00:00Z", "appointment_type": "physio",  "booked": true},
+    {"id": "B05", "name": "Kavya Iyer",    "joined_at": "2026-11-01T19:20:00Z", "appointment_type": "general", "booked": false},
+    {"id": "B04", "name": "Liam O'Brien",  "joined_at": "2026-11-01T09:10:00Z", "appointment_type": "physio",  "booked": false},
+    {"id": "B06", "name": "Maya Cohen",    "joined_at": "2026-11-03T07:00:00Z", "appointment_type": "general", "booked": false},
+    {"id": "B08", "name": "Noah Kim",      "joined_at": "2026-11-03T07:05:00Z", "appointment_type": "dental",  "booked": false},
+    {"id": "B09", "name": "Olu Adeyemi",   "joined_at": "2026-11-01T20:00:00Z", "appointment_type": "general", "booked": true},
+    {"id": "B10", "name": "Priya Shah",    "joined_at": "2026-11-03T09:00:00Z", "appointment_type": "physio",  "booked": false}
+  ]
+}

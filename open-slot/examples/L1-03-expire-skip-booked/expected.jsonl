@@ -1,0 +1,7 @@
+{"event": "offered", "slot": "S1", "patient": "P1"}
+{"event": "expired", "slot": "S1", "patient": "P1"}
+{"event": "offered", "slot": "S1", "patient": "P3"}
+{"event": "declined", "slot": "S1", "patient": "P3"}
+{"event": "offered", "slot": "S1", "patient": "P5"}
+{"event": "expired", "slot": "S1", "patient": "P5"}
+{"event": "no_eligible_patient", "slot": "S1"}

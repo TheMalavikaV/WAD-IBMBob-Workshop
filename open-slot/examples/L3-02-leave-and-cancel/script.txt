@@ -1,0 +1,9 @@
+# Patients can leave the waitlist and the clinic can cancel an open slot.
+open_slot S1 general 15:00
+leave P1
+cancel_slot S1
+open_slot S2 general 16:00
+leave P1
+accept P3 S2
+open_slot S3 general 17:00
+leave P4

@@ -1,0 +1,4 @@
+# The first patient declines, so the slot goes to the next eligible patient.
+open_slot S1 general 15:00
+decline P1 S1
+accept P3 S1

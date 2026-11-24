@@ -1,0 +1,7 @@
+{
+  "clinic": "Hilltop Night Clinic",
+  "patients": [
+    {"id": "Q1", "name": "Quinn Rivera", "joined_at": "2026-11-05T10:00:00Z", "appointment_type": "general", "booked": false},
+    {"id": "Q2", "name": "Rosa Lindqvist", "joined_at": "2026-11-05T10:30:00Z", "appointment_type": "general", "booked": false}
+  ]
+}
