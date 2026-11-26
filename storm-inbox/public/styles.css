@@ -1,0 +1,23 @@
+:root {font:16px/1.45 "Inter","Helvetica Neue",Arial,sans-serif;color:#172f35;background:#f5f5ef}
+* {box-sizing:border-box}
+body {margin:0}
+header {background:#153c40;color:white;padding:1rem 5vw;display:flex;align-items:center;justify-content:space-between}
+.brand {font:bold 1.6rem Georgia,serif}.brand small {display:inline;font:600 .65rem Arial;letter-spacing:.16em;color:#bed8cc}
+main {max-width:1360px;margin:auto;padding:2.4rem 5vw}
+.intro,.bar,.roster-card {display:flex;justify-content:space-between;align-items:center;gap:1rem}
+.overline {color:#326757;font-size:.72rem;letter-spacing:.13em;font-weight:bold}
+h1 {font:normal clamp(2.4rem,5vw,4rem)/1 Georgia,serif;letter-spacing:-.035em;margin:.45rem 0 1.5rem}
+h2 {font:normal 1.65rem/1.2 Georgia,serif;margin:.3rem 0} h3 {margin:1.6rem 0 .3rem;font-size:.86rem}
+#roster {display:flex;flex-wrap:wrap;gap:1rem;margin:.7rem 0 1.4rem}
+.roster-card {flex-wrap:wrap;padding:.8rem 1rem;background:#e6eee5;border:1px solid #c6d5c7;border-radius:6px}
+.roster-card span {font-size:.8rem}.roster-card small {flex-basis:100%;margin-top:-.8rem}
+.layout {display:grid;grid-template-columns:minmax(0,2.2fr) minmax(240px,1fr);gap:1rem;align-items:start}
+.panel {background:#fffefa;border:1px solid #d8dfd7;border-radius:8px;overflow:hidden}
+.bar,#details {padding:1.1rem 1.25rem}
+select {padding:.35rem;font:inherit;max-width:100%}
+table {width:100%;border-collapse:collapse;text-align:left;font-size:.86rem}.table-wrap {overflow:auto}
+td,th {padding:.7rem .85rem;border-top:1px solid #dce2da}
+th {background:#f1f4ed;font-size:.75rem}.selected {background:#e9f4ee}
+small {display:block;color:#586867} button {background:transparent;border:0;padding:0;color:#165a53;text-decoration:underline;font:inherit;font-weight:bold;cursor:pointer}
+ul {list-style:none;padding:0}li {display:flex;justify-content:space-between;gap:1rem;border-top:1px solid #dce2da;padding:.55rem 0;font-size:.86rem}
+@media(max-width:850px){.layout{grid-template-columns:1fr}.intro,.bar{flex-wrap:wrap}main{padding:1.2rem 3vw}}

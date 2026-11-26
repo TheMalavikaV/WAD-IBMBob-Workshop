@@ -1,0 +1,208 @@
+{
+  "claims": [
+    {
+      "id": "CLM-001",
+      "filedAt": "2026-06-12T07:45:00+05:30",
+      "severity": "Standard",
+      "area": "Jayanagar",
+      "summary": "Water damage to hall flooring",
+      "requiredDocuments": [
+        "Claim form",
+        "Damage photo"
+      ],
+      "receivedDocuments": [
+        "Claim form",
+        "Damage photo"
+      ],
+      "owner": null
+    },
+    {
+      "id": "CLM-002",
+      "filedAt": "2026-06-12T07:55:00+05:30",
+      "severity": "High",
+      "area": "BTM Layout",
+      "summary": "Roof sheets displaced",
+      "requiredDocuments": [
+        "Claim form",
+        "Roof photo",
+        "Repair estimate"
+      ],
+      "receivedDocuments": [
+        "Claim form"
+      ],
+      "owner": null
+    },
+    {
+      "id": "CLM-003",
+      "filedAt": "2026-06-12T08:10:00+05:30",
+      "severity": "High",
+      "area": "JP Nagar",
+      "summary": "Roof leak above bedroom",
+      "requiredDocuments": [
+        "Claim form",
+        "Roof photo"
+      ],
+      "receivedDocuments": [
+        "Claim form"
+      ],
+      "owner": null
+    },
+    {
+      "id": "CLM-004",
+      "filedAt": "2026-06-12T08:20:00+05:30",
+      "severity": "Standard",
+      "area": "Indiranagar",
+      "summary": "Window frame damaged",
+      "requiredDocuments": [
+        "Claim form",
+        "Damage photo"
+      ],
+      "receivedDocuments": [
+        "Claim form",
+        "Damage photo"
+      ],
+      "owner": null
+    },
+    {
+      "id": "CLM-005",
+      "filedAt": "2026-06-12T08:25:00+05:30",
+      "severity": "High",
+      "area": "Whitefield",
+      "summary": "Water ingress on ground floor",
+      "requiredDocuments": [
+        "Claim form",
+        "Damage photo"
+      ],
+      "receivedDocuments": [
+        "Claim form",
+        "Damage photo"
+      ],
+      "owner": "ravi"
+    },
+    {
+      "id": "CLM-006",
+      "filedAt": "2026-06-12T08:35:00+05:30",
+      "severity": "High",
+      "area": "HSR Layout",
+      "summary": "Tree fell through kitchen roof",
+      "requiredDocuments": [
+        "Claim form",
+        "Roof photo"
+      ],
+      "receivedDocuments": [
+        "Claim form",
+        "Roof photo"
+      ],
+      "owner": "meera"
+    },
+    {
+      "id": "CLM-007",
+      "filedAt": "2026-06-12T08:50:00+05:30",
+      "severity": "Low",
+      "area": "Domlur",
+      "summary": "Compound wall paint damaged",
+      "requiredDocuments": [
+        "Claim form",
+        "Damage photo"
+      ],
+      "receivedDocuments": [
+        "Claim form",
+        "Damage photo"
+      ],
+      "owner": null
+    },
+    {
+      "id": "CLM-008",
+      "filedAt": "2026-06-12T09:00:00+05:30",
+      "severity": "High",
+      "area": "Koramangala",
+      "summary": "Roof tiles torn away",
+      "requiredDocuments": [
+        "Claim form",
+        "Roof photo"
+      ],
+      "receivedDocuments": [
+        "Claim form",
+        "Roof photo"
+      ],
+      "owner": null
+    },
+    {
+      "id": "CLM-009",
+      "filedAt": "2026-06-12T09:00:00+05:30",
+      "severity": "High",
+      "area": "Hebbal",
+      "summary": "Ceiling damaged by rain",
+      "requiredDocuments": [
+        "Claim form",
+        "Damage photo"
+      ],
+      "receivedDocuments": [
+        "Claim form",
+        "Damage photo"
+      ],
+      "owner": null
+    },
+    {
+      "id": "CLM-010",
+      "filedAt": "2026-06-12T09:05:00+05:30",
+      "severity": "Standard",
+      "area": "Hennur",
+      "summary": "Water damage to cabinets",
+      "requiredDocuments": [
+        "Claim form",
+        "Damage photo"
+      ],
+      "receivedDocuments": [
+        "Claim form",
+        "Damage photo"
+      ],
+      "owner": null
+    },
+    {
+      "id": "CLM-011",
+      "filedAt": "2026-06-12T09:08:00+05:30",
+      "severity": "Standard",
+      "area": "Yelahanka",
+      "summary": "Boundary wall cracked",
+      "requiredDocuments": [
+        "Claim form",
+        "Damage photo"
+      ],
+      "receivedDocuments": [
+        "Claim form"
+      ],
+      "owner": null
+    },
+    {
+      "id": "CLM-012",
+      "filedAt": "2026-06-12T09:12:00+05:30",
+      "severity": "Low",
+      "area": "Bellandur",
+      "summary": "Balcony awning torn",
+      "requiredDocuments": [
+        "Claim form",
+        "Damage photo"
+      ],
+      "receivedDocuments": [
+        "Claim form",
+        "Damage photo"
+      ],
+      "owner": null
+    }
+  ],
+  "adjusters": [
+    {
+      "id": "meera",
+      "name": "Meera Rao",
+      "available": true,
+      "capacity": 2
+    },
+    {
+      "id": "ravi",
+      "name": "Ravi Kumar",
+      "available": true,
+      "capacity": 2
+    }
+  ]
+}

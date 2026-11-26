@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+*.db
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Java
+*.class
+target/
+build/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# The Storm Inbox: optional on-disk state
+.state/
+
+# Your outputs
+out/
+*.out.json
+*.out.jsonl
+.env

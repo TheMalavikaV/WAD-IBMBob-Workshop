@@ -57,12 +57,14 @@ def main():
 
     exe, text = version_of("node")
     if not exe:
-        report(WARN, "node", "not found (optional, only if you solve The Open Slot in Node.js)")
+        report(FAIL, "node", "not found -> see PREREQUISITES.md (needed for The Storm Inbox)")
+    else:
         major = major_minor(text.lstrip("v"))[0]
-        report(OK if major >= 18 else FAIL, "node", text + ("" if major >= 18 else "  -> need v18+ (Linux: use nvm)"))
+        report(OK if major >= 22 else FAIL, "node", text + ("" if major >= 22 else "  -> need v22+ (see PREREQUISITES.md)"))
 
     exe, text = version_of("npm")
-    report(OK if exe else WARN, "npm", text if exe else "not found (optional, comes with Node.js)")
+    report(OK if exe else FAIL, "npm", text if exe else "not found (it comes with Node.js)")
+
     exe, text = version_of("java")
     if not exe:
         report(WARN, "java", "not found (optional, only for Java teams)")
@@ -70,15 +72,16 @@ def main():
         major = major_minor(text)[0]
         report(OK if major >= 17 else WARN, "java", text + ("" if major >= 17 else "  -> 17+ needed for `java Main.java`"))
 
-    # Port 5001 is used by the web apps in this workshop
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    try:
-        sock.bind(("127.0.0.1", 5001))
-        report(OK, "port 5001", "free")
-    except OSError:
-        report(WARN, "port 5001", "in use - stop the program using it before starting a workshop app")
-    finally:
-        sock.close()
+    # Ports used by the web apps in this workshop: ClaimsFlow 5001, The Storm Inbox 7991
+    for port in (5001, 7991):
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        try:
+            sock.bind(("127.0.0.1", port))
+            report(OK, f"port {port}", "free")
+        except OSError:
+            report(WARN, f"port {port}", "in use - stop the program using it before starting a workshop app")
+        finally:
+            sock.close()
 
     print()
     if problems:

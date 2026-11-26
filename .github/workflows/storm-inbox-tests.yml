@@ -1,0 +1,23 @@
+name: storm-inbox tests
+
+on:
+  push:
+    paths: ["storm-inbox/**", ".github/workflows/storm-inbox-tests.yml"]
+  pull_request:
+    paths: ["storm-inbox/**", ".github/workflows/storm-inbox-tests.yml"]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    defaults:
+      run:
+        working-directory: storm-inbox
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run tests
+        run: npm test

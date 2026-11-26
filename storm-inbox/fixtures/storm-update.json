@@ -1,0 +1,16 @@
+[
+  {
+    "id": "update-1030",
+    "occurredAt": "2026-06-12T10:30:00+05:30",
+    "type": "document.received",
+    "claimId": "CLM-003",
+    "document": "Roof photo"
+  },
+  {
+    "id": "update-1035",
+    "occurredAt": "2026-06-12T10:35:00+05:30",
+    "type": "adjuster.availability",
+    "adjusterId": "meera",
+    "available": false
+  }
+]

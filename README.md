@@ -1,6 +1,6 @@
 # Build It With an Agent: a hands-on AI coding-agent workshop
 
-> **1.5 hours · work in teams · about 50 agent coins per team · pick ONE problem**
+> **80 minutes · about 50 Bob coins per team · pick ONE problem**
 
 This is a **workshop, not a competition**. Nobody is scored or judged. Your team picks one problem
 and uses an AI coding agent as the **builder**. You steer, review and verify. At the end you share what
@@ -12,11 +12,11 @@ The software you build does not need any AI inside it. The agent is your tool, n
 
 ## Before the workshop (10 minutes, please do this at home)
 
-1. Install the tools in **[PREREQUISITES.md](PREREQUISITES.md)** (Git, Python 3.10+, Node.js 18+).
+1. Install the tools in **[PREREQUISITES.md](PREREQUISITES.md)** (Git, Python 3.10+, Node.js 22+).
 2. Clone this repo and run the setup checker:
    ```
-   git clone https://github.com/YOUR-ORG/YOUR-REPO.git
-   cd YOUR-REPO
+   git clone https://github.com/TheMalavikaV/WAD-IBMBob-Workshop.git
+   cd WAD-IBMBob-Workshop
    python check-setup/check_setup.py
    ```
    On macOS/Linux use `python3` if `python` is not found. On Windows try `py` if `python` is not found.
@@ -31,13 +31,17 @@ Every problem is understandable in 30 seconds and runs on your laptop with one c
 
 | Problem | Type | Language | The 30-second version |
 |---|---|---|---|
+| **[The Storm Inbox](storm-inbox/)** *(beginner track)* | Brownfield | JavaScript / Node.js 22+ (no dependencies) | A claims desk on a rainy morning: show which claim comes next, assign it to an adjuster with room, and cope when the morning changes. Step-by-step prompts included. |
 | **[ClaimsFlow](claimsflow/)** | Brownfield | Python (Flask + SQLite) | An insurance claims app with no tests is paying claims wrongly and paying some twice. Take it over with an agent and make it trustworthy. |
 | **[The Open Slot](open-slot/)** | Greenfield | Your choice (Node.js or Python suggested) | A clinic appointment opens up. Offer it to the waitlist one patient at a time, without ever double-offering. |
 
 **How to choose:**
-- Want to work with *existing* code (the most common day job)? Pick **ClaimsFlow** (brownfield, Python).
+- **First time driving a coding agent?** Pick **The Storm Inbox**. Small app, concrete story, a suggested prompt for every step.
+- Want to work with *bigger existing* code (the most common day job)? Pick **ClaimsFlow** (brownfield, Python).
 - Want to see how well the agent builds something *from a spec*? Pick **The Open Slot** (greenfield, any language).
   Inputs are JSON/text files, expected outputs are files, and a checker tells you PASS/FAIL.
+- Java is welcome for The Open Slot (no starter code is provided). A single file run with
+  `java Main.java` (JDK 17+) avoids Maven/Gradle entirely.
 
 ## Every problem is a ladder. Nobody is expected to reach the top.
 
@@ -72,8 +76,8 @@ If GitHub is not available to you, `git clone` this repo directly and work local
 | 0-10 min | Intro, pick a problem, run the problem's smoke test |
 | 10-15 min | Read the brief, write the first prompt (plan first, see [AGENT_GUIDE.md](AGENT_GUIDE.md)) |
 | 15-65 min | Build with the agent, climb the ladder |
-| 65-75 min | Try it, verify one result yourself, fill in the experience report |
-| 75-90 min | Debrief: a few teams share one win and one failure |
+| 65-80 min | Try it, verify one result yourself, fill in the experience report |
+| 80-90 min | Debrief: a few teams share one win and one failure |
 
 ## Share your experience (this is the most important part)
 
@@ -92,7 +96,8 @@ README.md               <- you are here
 PREREQUISITES.md        install Git / Python / Node (Windows, macOS, Linux)
 AGENT_GUIDE.md          one page of tips for working with the agent
 check-setup/            python check-setup/check_setup.py
-claimsflow/             problem 1 (brownfield, Python)
-open-slot/              problem 2 (greenfield, any language)
-.github/                experience-report issue template, CI for ClaimsFlow
+storm-inbox/            beginner track (brownfield, Node.js)
+claimsflow/             brownfield, Python
+open-slot/              greenfield, any language
+.github/                experience-report issue template, CI for the brownfield problems
 ```

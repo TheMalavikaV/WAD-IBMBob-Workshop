@@ -6,8 +6,8 @@ Please do this **before** the workshop (it takes 10-15 minutes, mostly downloads
 |---|---|---|
 | Git | any recent | everything |
 | Python | **3.10+** | ClaimsFlow, the setup checker and the Open Slot checker |
-| Node.js | **18+ (optional)** (LTS recommended) | optional: only if you solve The Open Slot in Node.js |
-| Java (JDK) | 17+ *(optional)* | only if your team wants to solve a greenfield problem in Java |
+| Node.js | **22+** (current LTS recommended) | The Storm Inbox; optional for The Open Slot |
+| Java (JDK) | 17+ *(optional)* | only if your team wants to solve The Open Slot in Java |
 | An editor | - | VS Code or whatever you like |
 | Your AI coding agent | - | as instructed by the facilitators; make sure you can log in from **your own** machine |
 
@@ -66,7 +66,7 @@ sudo dnf install -y git python3 python3-pip nodejs
 sudo dnf install -y java-17-openjdk-devel
 ```
 
-**Node.js on Linux: use nvm.** Distribution packages are often older than Node 18.
+**Node.js on Linux: use nvm.** Distribution packages are often older than Node 22.
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
 # close and reopen the terminal, then:
@@ -84,7 +84,7 @@ Use `python3` (not `python`) on Linux.
 |---|---|---|---|
 | Git | `git --version` | `git --version` | any version |
 | Python | `python --version` (or `py --version`) | `python3 --version` | 3.10 or higher |
-| Node.js | `node --version` | `node --version` | v18 or higher |
+| Node.js | `node --version` | `node --version` | v22 or higher |
 | npm | `npm --version` | `npm --version` | any version |
 | Java *(optional)* | `java --version` | `java --version` | 17 or higher |
 
@@ -108,5 +108,6 @@ It ends with `ALL GOOD` (or tells you exactly what is missing).
 | `error: externally-managed-environment` from pip | You are installing into the system Python (macOS Homebrew, Ubuntu 23.04+, Debian 12+). Create and activate a virtual environment first (each problem's README shows how). |
 | `The virtual environment was not created successfully because ensurepip is not available` (Ubuntu/Debian) | `sudo apt install python3-venv` |
 | `...Activate.ps1 cannot be loaded because running scripts is disabled` (Windows) | `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`, then try again. |
-| `node --version` shows v12/v16 (Linux) | Install a current LTS with nvm (see above). |
-| `Address already in use` / port busy | All workshop apps use port **5001** (macOS AirPlay takes 5000). Stop whatever is on 5001, or start the app on another port as described in its README. |
+| `node --version` shows v20 or older | Install the current LTS (Windows: `winget upgrade OpenJS.NodeJS.LTS`; macOS: `brew upgrade node`; Linux: `nvm install --lts`). |
+| `Address already in use` / port busy | ClaimsFlow uses port **5001** (macOS AirPlay takes 5000); The Storm Inbox uses **7991**. Stop whatever is on that port, or start the app on another port as described in its README. |
+| Corporate proxy blocks `pip install` / `npm install` | Ask the facilitators; ClaimsFlow needs only Flask, and The Storm Inbox needs nothing from npm. |
