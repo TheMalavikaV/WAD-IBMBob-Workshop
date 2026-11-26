@@ -1,7 +1,7 @@
 ---
 name: Experience report
 about: Share how your team worked with the AI agent (about 5 minutes)
-title: "[Experience] <problem> - <team name>"
+title: "[Experience] <problem>"
 labels: experience-report
 ---
 
