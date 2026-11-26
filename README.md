@@ -1,4 +1,4 @@
-# Build It With an Agent: a hands-on AI coding-agent workshop
+# Go Beyond the Vibe: Build Smarter AI Solutions
 
 > **80 minutes · about 50 Bob coins per team · pick ONE problem**
 
@@ -77,7 +77,7 @@ If GitHub is not available to you, `git clone` this repo directly and work local
 | 10-15 min | Read the brief, write the first prompt (plan first, see [AGENT_GUIDE.md](AGENT_GUIDE.md)) |
 | 15-65 min | Build with the agent, climb the ladder |
 | 65-80 min | Try it, verify one result yourself, fill in the experience report |
-| 80-90 min | Debrief: a few teams share one win and one failure |
+| 80-90 min | Debrief: a few teams share one win and one failure OR file an experience report |
 
 ## Share your experience (this is the most important part)
 
