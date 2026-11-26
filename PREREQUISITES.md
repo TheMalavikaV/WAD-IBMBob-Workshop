@@ -5,8 +5,8 @@ Please do this **before** the workshop (it takes 10-15 minutes, mostly downloads
 | Tool | Minimum version | Needed for |
 |---|---|---|
 | Git | any recent | everything |
-| Python | **3.10+** | ClaimsFlow, the setup checker and the greenfield checkers |
-| Node.js | **18+** (LTS recommended) | One Purchase, One Line; optional for greenfield problems |
+| Python | **3.10+** | ClaimsFlow, the setup checker and the Open Slot checker |
+| Node.js | **18+ (optional)** (LTS recommended) | optional: only if you solve The Open Slot in Node.js |
 | Java (JDK) | 17+ *(optional)* | only if your team wants to solve a greenfield problem in Java |
 | An editor | - | VS Code or whatever you like |
 | Your AI coding agent | - | as instructed by the facilitators; make sure you can log in from **your own** machine |
@@ -110,4 +110,3 @@ It ends with `ALL GOOD` (or tells you exactly what is missing).
 | `...Activate.ps1 cannot be loaded because running scripts is disabled` (Windows) | `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`, then try again. |
 | `node --version` shows v12/v16 (Linux) | Install a current LTS with nvm (see above). |
 | `Address already in use` / port busy | All workshop apps use port **5001** (macOS AirPlay takes 5000). Stop whatever is on 5001, or start the app on another port as described in its README. |
-| Corporate proxy blocks `pip install` / `npm install` | Ask the facilitators; ClaimsFlow needs only Flask, One Purchase, One Line needs nothing from npm. |

@@ -32,17 +32,12 @@ Every problem is understandable in 30 seconds and runs on your laptop with one c
 | Problem | Type | Language | The 30-second version |
 |---|---|---|---|
 | **[ClaimsFlow](claimsflow/)** | Brownfield | Python (Flask + SQLite) | An insurance claims app with no tests is paying claims wrongly and paying some twice. Take it over with an agent and make it trustworthy. |
-| **[One Purchase, One Line](one-purchase-one-line/)** | Brownfield | Node.js (no build step) | A customer bought one pizza but their banking app shows two Rs.799 entries. Extend a small banking simulator so each purchase shows as one line. |
-| **[Flaky Test Detective](flaky-test-detective/)** | Greenfield | Your choice (Node.js or Python suggested) | CI keeps failing and people keep re-running it. Read 50,000 rows of CI history and say which tests are flaky, how badly, and which ones are really broken. |
 | **[The Open Slot](open-slot/)** | Greenfield | Your choice (Node.js or Python suggested) | A clinic appointment opens up. Offer it to the waitlist one patient at a time, without ever double-offering. |
 
 **How to choose:**
-- Want to work with *existing* code (the most common day job)? Pick a **brownfield** problem.
-  ClaimsFlow is the richest; One Purchase, One Line is the smallest.
-- Want to see how well the agent builds something *from a spec*? Pick a **greenfield** problem.
-  These are language-neutral: inputs are CSV/JSON files, expected outputs are files, and a checker tells you PASS/FAIL.
-- Java is welcome for the greenfield problems (no starter code is provided). A single file run with
-  `java Main.java` (JDK 17+) avoids Maven/Gradle entirely.
+- Want to work with *existing* code (the most common day job)? Pick **ClaimsFlow** (brownfield, Python).
+- Want to see how well the agent builds something *from a spec*? Pick **The Open Slot** (greenfield, any language).
+  Inputs are JSON/text files, expected outputs are files, and a checker tells you PASS/FAIL.
 
 ## Every problem is a ladder. Nobody is expected to reach the top.
 
@@ -84,9 +79,9 @@ If GitHub is not available to you, `git clone` this repo directly and work local
 
 When you are done, open an **experience report** issue. It has six short questions and takes about 5 minutes:
 
-**→ [Open an experience report](https://github.com/YOUR-ORG/YOUR-REPO/issues/new?template=experience-report.md)**
+**→ [Open an experience report](https://github.com/TheMalavikaV/WAD-IBMBob-Workshop/issues/new?template=experience-report.md)**
 
-Please file it on **this** repo (the link above), not on your template copy. One report per team is enough.
+Please file it on **this** repo (the link above), not on your template copy.
 
 ---
 
@@ -98,8 +93,6 @@ PREREQUISITES.md        install Git / Python / Node (Windows, macOS, Linux)
 AGENT_GUIDE.md          one page of tips for working with the agent
 check-setup/            python check-setup/check_setup.py
 claimsflow/             problem 1 (brownfield, Python)
-one-purchase-one-line/  problem 2 (brownfield, Node.js)
-flaky-test-detective/   problem 3 (greenfield, any language)
-open-slot/              problem 4 (greenfield, any language)
-.github/                experience-report issue template, CI for the brownfield problems
+open-slot/              problem 2 (greenfield, any language)
+.github/                experience-report issue template, CI for ClaimsFlow
 ```

@@ -22,7 +22,6 @@ Coins go fastest when the agent is guessing, re-reading big files, or fixing thi
 
 ## 4. Point, do not paste
 - Refer to files by path ("read `docs/BUSINESS_RULES.md`") instead of pasting large files into the chat.
-- Do not let it read the 50,000-row data file. Point it at the small sample and the column description.
 
 ## 5. Verify one result yourself
 - Pick one example and check it **by hand** (a calculator, a spreadsheet, reading 10 rows).

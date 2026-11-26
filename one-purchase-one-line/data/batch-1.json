@@ -1,8 +1,0 @@
-[
-  {"event_id": "EVT-0101", "auth_id": "AUTH-1005", "type": "CAPTURED",   "merchant": "FuelStop",    "amount_paise": 150000, "event_time": "2026-11-07T01:00:00Z", "ingested_at": "2026-11-08T09:00:01Z"},
-  {"event_id": "EVT-0102", "auth_id": "AUTH-1003", "type": "REFUNDED",   "merchant": "CinePlex",    "amount_paise": 79900,  "event_time": "2026-11-07T09:00:00Z", "ingested_at": "2026-11-08T09:00:02Z"},
-  {"event_id": "EVT-0105", "auth_id": "AUTH-1007", "type": "CAPTURED",   "merchant": "GreenGrocer", "amount_paise": 32050,  "event_time": "2026-11-08T02:00:00Z", "ingested_at": "2026-11-08T09:00:03Z"},
-  {"event_id": "EVT-0104", "auth_id": "AUTH-1007", "type": "AUTHORISED", "merchant": "GreenGrocer", "amount_paise": 32050,  "event_time": "2026-11-07T17:40:00Z", "ingested_at": "2026-11-08T09:00:04Z"},
-  {"event_id": "EVT-0101", "auth_id": "AUTH-1005", "type": "CAPTURED",   "merchant": "FuelStop",    "amount_paise": 150000, "event_time": "2026-11-07T01:00:00Z", "ingested_at": "2026-11-08T09:00:05Z"},
-  {"event_id": "EVT-0002", "auth_id": "AUTH-1001", "type": "CAPTURED",   "merchant": "Pizza Palace","amount_paise": 79900,  "event_time": "2026-11-05T02:00:00Z", "ingested_at": "2026-11-08T09:00:06Z"}
-]

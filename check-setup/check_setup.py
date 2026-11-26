@@ -57,14 +57,12 @@ def main():
 
     exe, text = version_of("node")
     if not exe:
-        report(FAIL, "node", "not found -> see PREREQUISITES.md (needed for One Purchase, One Line)")
-    else:
+        report(WARN, "node", "not found (optional, only if you solve The Open Slot in Node.js)")
         major = major_minor(text.lstrip("v"))[0]
         report(OK if major >= 18 else FAIL, "node", text + ("" if major >= 18 else "  -> need v18+ (Linux: use nvm)"))
 
     exe, text = version_of("npm")
-    report(OK if exe else FAIL, "npm", text if exe else "not found (it comes with Node.js)")
-
+    report(OK if exe else WARN, "npm", text if exe else "not found (optional, comes with Node.js)")
     exe, text = version_of("java")
     if not exe:
         report(WARN, "java", "not found (optional, only for Java teams)")
